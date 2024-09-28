@@ -31,6 +31,12 @@ body{
     border: 2px solid var(--purple);
     border-radius: 20px;
 }
+p{
+    margin-top: 10px;
+}
+.details{
+    width: 100%;
+}
 #progressBar{
     width: 100%;
     height: 10px;
@@ -38,8 +44,12 @@ body{
     border-radius: 5px;
     margin-top: 20px;
 }
-p{
-    margin-top: 10px;
+#progress{
+    width: 100px;
+    height: 10px;
+    background-color: var(--teal);
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 #numbers{
     border: 3px solid;
@@ -52,4 +62,32 @@ p{
     border-radius: 50%;
     width: 50%;
     height: 100px;
+}
+form{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+input{
+    flex: 1;
+    padding: 16px;
+    background: var(--secondaryBackground);
+    border: 1px solid var(--purple);
+    border-radius: 10px;
+    outline: nome;
+    color: var(--text);
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    color: var(--text);
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
 }
